@@ -1,0 +1,84 @@
+/* ============================================================
+ * 界面尺寸
+ * 改大小只改这一份。单位写在值里，例如 72px、14px、22vh。
+ * ============================================================ */
+
+:root {
+  /* —— 首页表情球 —— */
+  --ball-home: 76px;
+  --ball-home-top: 176px;
+  --ball-home-right: 20px;
+  --ball-home-gap: 96px;
+
+  /* —— 内容页右侧可拖小球 —— */
+  --ball-edge-w: 44px;
+  --ball-edge-h: 48px;
+  --ball-edge: 32px;
+  --ball-edge-radius: 22px;
+
+  /* —— 助手侧栏 —— */
+  --chat-w: 360px;
+  --chat-w-min: 280px;
+  --chat-w-max: 720px;
+  --chat-header-ball: 40px;
+  --chat-bubble-ball: 24px;
+  --chat-icon: 28px;
+  --chat-icon-glyph: 15px;
+  --chat-title: 15px;
+  --chat-status: 12px;
+  --chat-text: 14px;
+  --chat-input-h: 36px;
+  --chat-send: 36px;
+
+  /* —— 页边与标题 —— */
+  --page-pad-x: 36px;
+  --title-home: clamp(42px, 5vw, 68px);
+  --title-inner: clamp(40px, 4.6vw, 64px);
+  --subtitle: 13px;
+  --nav: 14px;
+  --foot: 14px;
+
+  /* —— 印章与导航 —— */
+  --seal: 40px;
+  --seal-font: 24px;
+
+  /* —— 地图上的鼓 —— */
+  --map-drum-name: 13px;
+  --map-drum-place: 9px;
+  --map-label: 11px;
+
+  /* —— 民族页三面鼓 —— */
+  --drum-gate: min(18vh, 168px);
+  --drum-gate-name: 20px;
+  --drum-gate-line: 12px;
+
+  /* —— 内容页左侧鼓轨 —— */
+  --rail-w: 180px;
+  --rail-drum: 56px;
+  --rail-name: 13px;
+
+  /* —— 课程与影像 —— */
+  --course-index: 28px;
+  --course-name: 18px;
+  --face: 60px;
+  --branch-title: 36px;
+
+  /* —— 总览分栏 —— */
+  --data-col: 440px;
+
+  /* —— 数智览 —— */
+  --kpi-num: 36px;
+  --kpi-label: 12px;
+  --donut: 108px;
+  --bi-pad-right: 64px;
+}
+
+@media (max-width: 720px) {
+  :root {
+    --ball-home: 60px;
+    --ball-home-top: 120px;
+    --ball-home-right: 10px;
+    --ball-home-gap: 16px;
+    --title-home: 40px;
+  }
+}
